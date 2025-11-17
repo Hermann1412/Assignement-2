@@ -1,64 +1,85 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
 
-<html lang="en"> 
+    <style>
+        /* Base styles */
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
-<head> 
+        header {
+            text-align: center;
+            padding: 20px;
+        }
 
-    <meta charset="UTF-8"> 
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        section {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
 
-    <title>My Profile</title> 
+        section h2 {
+            margin-top: 0;
+        }
 
-    <link rel="stylesheet" href="public/css/style.css"> 
+        .biography img {
+            display: block;
+            margin-bottom: 15px;
+            border-radius: 8px;
+        }
 
-</head> 
+        ul {
+            padding-left: 20px;
+        }
 
-<body> 
+        footer {
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
 
-    <header> 
+<body>
+    <header>
+        <h1>Hermann N'zi Ngenda</h1>
+    </header>
 
-        <h1>Hermann N'zi Ngenda</h1> 
+    <div class="content">
+        <section class="biography">
+            <img src="images/Hermann.png" height="220">
+            <h2>About Me</h2>
+            <p>I am a Student at Assumption University of Thailand,<br>
+               Majoring in Computer Engineering.<br>
+               Right now, I am doing my 5th year in the campus.</p>
+        </section>
 
-    </header> 
+        <section class="achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li>I have done my final project about object detection and classification in the educative area.</li>
+                <li>I am an amateur fighter.</li>
+            </ul>
+        </section>
+    </div>
 
-    <div class="content"> 
-
-        <section class="biography"> 
-
-            <img src="images/Hermann.png" height="220"> 
-
-            <h2>About Me</h2> 
-
-            <p>I am a Student at assumption University of thailand, <br>Majoring in computer engineeering.<br>
-            Right now, I am doing my 5th year in the campus</p> 
-
-        </section> 
-
- 
-
-        <section class="achievements"> 
-
-            <h2>Achievements</h2> 
-
-            <ul> 
-
-                <li>I have done my final project, about object detetion and classification in educative area</li> 
-
-                <li>I am a armature fighter</li> 
-
-            </ul> 
-
-        </section> 
-
-    </div> 
-
-    <footer> 
-
-        <p>Created by Hermann N'zi Ngenad u6411076, All rights reserved</p> 
-
-    </footer> 
-
-</body> 
-
-</html> 
+    <footer>
+        <p>Created by Hermann N'zi Ngenda u6411076, All rights reserved</p>
+    </footer>
+</body>
+</html>
